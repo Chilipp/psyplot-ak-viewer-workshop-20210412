@@ -1,6 +1,6 @@
-#  Visualizing and analyzing HZG model data using the HCDC framework psyplot
+#  psyplot, unstructured grids and 3D visualization
 
-Presentation material for the O2A Jourfix on February 24th, 2021
+Presentation material for the Datahub AK Viewer Workshop, April 12th, 2021
 
 Philipp S. Sommer
 
@@ -15,11 +15,12 @@ used with the latest libraries.
 This presentation uses material from the
 [DKRZ TechTalk from November, 17th 2020][techtalk] and the presentation at the
 [KS Seminar on January 28th, 2021][ks-seminar]. It is, however, less technical
-and puts more emphasis on new developments concerning the visualization of
-transects, and the FESOM model.
+and puts more emphasis on 3D visualization using [psy-vtk][psy-vtk]. Lot's of
+it has been shown interactively in the GUI during the presentation.
 
 [techtalk]: https://github.com/Chilipp/psyplot-DKRZ-TechTalk-20201117
 [ks-seminar]: https://github.com/Chilipp/psyplot-KS-Seminar-20210228
+[psy-vtk]: https://github.com/psyplot/psy-vtk
 
 ### Static version
 
@@ -41,7 +42,7 @@ python -m pip install --user -U \
 
 Clonse this repository and open the jupyter notebook within the jupyterhub.
 
-To explore the 3D-visualization, please have a look at the examples in the
+To explore the 3D-visualization, please also have a look at the examples in the
 [psy-vtk](https://github.com/psyplot/psy-vtk) repository
 
 ## License
@@ -51,4 +52,4 @@ Attribution 4.0 International Public License (CC BY 4.0).
 
 See the [LICENSE](LICENSE) file for more details.
 
-Copyright (c) 2021, Philipp S. Sommer, HZG.
+Copyright (c) 2021, Philipp S. Sommer, Helmholtz-Zentrum Hereon.
