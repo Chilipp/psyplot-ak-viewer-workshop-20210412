@@ -7,6 +7,7 @@
 
 #rise-footer {
     margin: 10px;
+    width: 90%;
     right: 5%;
 }
 
@@ -42,7 +43,7 @@ dl > dd {
     border: 1px solid transparent;
     border-radius: .25rem;
 }
-
+/* 
 #slide-2-1 > div.fragment > div.cell {
     color: #004085;
     background-color: #cce5ff;
@@ -52,7 +53,7 @@ dl > dd {
     width: 45% !important;
     border: 1px solid transparent;
     border-radius: .25rem;
-}
+} */
 
 section .past {
     top: 0  !important;
